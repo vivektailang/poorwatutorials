@@ -16,10 +16,10 @@ body {
 }
 
 header {
-    background: #333;
+    background: url('header-bg.jpg') no-repeat center center/cover;
     color: #fff;
     padding-top: 30px;
-    min-height: 70px;
+    min-height: 200px; /* Adjust height as needed */
     border-bottom: #77aaff 3px solid;
 }
 
