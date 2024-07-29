@@ -74,13 +74,13 @@ section {
     font-size: 50px;
 }
 
-#about, #courses, #contact {
+#about, #mission, #gallery, #contact, #journey, #messages {
     background: #f4f4f4;
     color: #333;
     text-align: center;
 }
 
-#about h2, #courses h2, #contact h2 {
+#about h2, #mission h2, #gallery h2, #contact h2, #journey h2, #messages h2 {
     margin-bottom: 20px;
 }
 
@@ -136,6 +136,25 @@ footer {
     text-align: center;
     padding: 20px 0;
     margin-top: 20px;
+}
+
+.gallery-item {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.gallery-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.message {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
 }
 
 @media (max-width: 768px) {
